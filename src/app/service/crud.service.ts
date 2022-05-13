@@ -14,9 +14,7 @@ export class CrudService {
     this.serviceUrl= " http://localhost:3000/tasks"
    }
 
-   
-
-    addTask(task:Task):Observable<Task>{
+   addTask(task:Task):Observable<Task>{
       return this.http.post<Task>(this.serviceUrl,task)
      }
      getAllTask():Observable<Task[]>{
@@ -28,6 +26,4 @@ export class CrudService {
      editTask(task:Task):Observable<Task>{
       return this.http.put<Task>(this.serviceUrl+'/'+task.id,task)
      }
-    
-   
-}
+  }

@@ -12,54 +12,25 @@
     display: flex;
 }
 
-.btn-1 {
-    background-color: blue;
+#btn {
+    background: #251D3A;
     color: white;
 }
 
-.btn-1:hover {
-    background-color: aliceblue;
-    color: blue;
-}
-
-.btn-2 {
-    background-color: red;
+#btn:hover {
+    background: #2A2550;
     color: white;
-}
-
-.btn-2:hover {
-    background-color: aliceblue;
-    color: red;
-}
-
-.btn-3 {
-    background: green;
-    color: aliceblue;
-}
-
-.btn-3:hover {
-    background: white;
-    color: green;
-}
-
-h5 {
-    align-items: center;
-}
-
-#edit {
-    align-items: center;
-    color: blueviolet;
 }
 
 .btn-close {
-    color: red;
     padding-right: 2rem;
 }
 
-.modal-title {
-    padding-left: 5rem;
+.edit {
+    padding: .5rem 0 0 2rem;
+    color: #FF7700;
 }
 
-.font-size {
-    font-size: 1.5rem;
+input {
+    padding: 1rem;
 }
